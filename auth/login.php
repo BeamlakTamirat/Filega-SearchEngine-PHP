@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="auth-container">
         <div class="auth-box">
             <div class="auth-header">
-                <img src="../assets/img/filega-logo.png" alt="Filega" class="auth-logo">
+                <img src="../assets/img/filega-logo-small.png" style="width:110px; height:115px;" alt="Filega" class="auth-logo">
                 <h1>Login to Filega</h1>
             </div>
             
