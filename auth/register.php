@@ -65,8 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="auth-container">
         <div class="auth-box">
             <div class="auth-header">
-                <img src="../assets/img/filega-logo.png" alt="Filega" class="auth-logo">
-                <h1>Create an Account</h1>
+                <img src="../assets/img/filega-logo-small.png" style="width:80px; height:85px;" alt="Filega" class="auth-logo">
+                <h2>Create an Account</h2>
             </div>
             
             <?php if (!empty($error)): ?>
@@ -113,7 +113,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
                 
                 <div class="auth-links">
-                    <a href="login.php">Already have an account? Login</a>
+                    <div>
+                        Already have an account?
+                        <a href="login.php"> Login</a>
+                    </div>
                 </div>
             </form>
         </div>
