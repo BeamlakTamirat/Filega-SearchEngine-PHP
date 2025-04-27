@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($token)) {
     <div class="auth-container">
         <div class="auth-box">
             <div class="auth-header">
-                <img src="../assets/img/filega-logo.png" alt="Filega" class="auth-logo">
+                <img src="../assets/img/filega-logo-small.png" alt="Filega" class="auth-logo">
                 <h1>Reset Password</h1>
             </div>
             
