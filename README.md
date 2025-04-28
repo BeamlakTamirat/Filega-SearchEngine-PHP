@@ -1,5 +1,6 @@
-# Filega Search Engine
-
+<div>
+   <img src="assets/img/filega-logo-small.png"></img>
+</div>
 Filega is a modern, personalized search engine built with PHP, MySQL, HTML, CSS, and JavaScript. It integrates with the Google Custom Search API to provide powerful search functionality while adding features like user accounts, search history, bookmarks, and more.
 
 ## Features
